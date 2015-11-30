@@ -1,0 +1,93 @@
+/* html & body need to be given 100% heights to coordinate with 100% height jumbotron */
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	background-color: black;
+}
+
+
+/* --------------------------------- NAVBAR --------------------------------------- */
+
+/* Styling for the nav bar */
+.container-fluid {
+    padding-right: 25px;
+    padding-left: 86px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar .navbar-default .navbar-fixed-top .container-fluid{
+	padding-left: 86px;
+}
+
+/* Styling for the links within the nav bar */
+.navbar-default .navbar-nav>li>a {
+	color: black;
+    background-color: white;
+    padding-top: 30px;
+    height: 76px;
+}
+
+/* Active state for the links within the nav bar */
+ .navbar-default .navbar-nav>.active>a {
+    background-color: hotpink;
+}
+
+/* Hover state for the links within the nav bar */
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: hotpink;
+}
+
+/* Hover state for the ACTIVE links within the nav bar (A little confusing, I know)*/
+ .navbar-default .navbar-nav>.active>a:hover {
+    background-color: hotpink;
+}
+
+/* --------------------------------- JUMBOTRON --------------------------------------- */
+
+.jumbotron {
+    padding-top: 130px;
+    /*padding-bottom: 30px;*/
+    margin-bottom: 0px;
+    color: hotpink;
+    background-color: #eee;
+    background-image: url('../img/background-image.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+/* Tweak left alignment of intro text */
+.jumbotron .container {
+    margin-left: 70px;
+}
+
+/* --------------------------------- COLUMNS --------------------------------------- */
+
+.col-md-4{
+    position: relative;
+    min-height: 1px;
+    padding: 10px 15px;
+  /*  background-color: #eee;
+    border: 1px solid #ddd;*/
+}
+
+.thumbnail{
+	height: 100px;
+	border-radius: 0px;
+	border: none;
+}
+
+.skillz{
+	background-color: black;
+	padding-top: 40px;
+}
+
+.skillz .container-fluid{
+	padding-left: 16px;
+}
+
+
